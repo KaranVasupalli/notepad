@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className="bg-[#0a1e27] text-white h-screen">
+    <div className="bg-[#0a1e27] text-white h-screen p-5">
       <h1 className="text-4xl text-center mb-5">NOTEPAD</h1>
       <div className="flex gap-2">
         <h2 className="text-3xl">NOTES</h2>
