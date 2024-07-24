@@ -27,9 +27,10 @@ function App() {
   };
 
   return (
-    <div className="border border-black">
+    <div className="bg-[#0a1e27] text-white h-screen">
+      <h1 className="text-4xl text-center mb-5">NOTEPAD</h1>
       <div className="flex gap-2">
-        <h1 className="text-3xl">NOTES</h1>
+        <h2 className="text-3xl">NOTES</h2>
         <button onClick={addNote}>➕</button>
       </div>
 
@@ -48,7 +49,7 @@ function App() {
         <div>
           {currentEditing !== null ? (
             <MarkdownEditor
-              className="w-[80vw] h-screen static"
+              className="w-[80vw] h-[80vh] static"
               onChange={(value, viewUpdate) => {
                 let newValue = value;
                 let localCopy = [...notes];

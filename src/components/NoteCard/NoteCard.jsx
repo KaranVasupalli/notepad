@@ -7,7 +7,7 @@ import React from "react";
   deleteNote,
 }) {
   return (
-    <div className=" border-3 border-black">
+    <div className=" ">
       <div  style={{ display: "flex", gap: "10px" ,width:"200px" }}>
         <h2 className="temp" onClick={() => setCurrentEditing(index)}>
           {title.substr(0, 10)}....
